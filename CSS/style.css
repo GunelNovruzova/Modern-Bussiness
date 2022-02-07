@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #212529;
+    padding: 10px ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container .navbar a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: aliceblue;
+}
+#phone-header{
+    display: none;
+}
+#phone-second{
+    display: none;
+}
+#phone-third{
+    display: none;
+}
+#phone-fourth{
+    display: none;
+}
+#phone-fifth{
+    display: none;
+}
+#phone-footer{
+    display: none;
+}
+@media(max-width:576px){
+header{
+    display: none;
+}
+#phone-header{
+    display: block;
+}
+#phone-header{
+    background-color: #212529;
+    padding: 20px 0;
+}
+#phone-header a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: aliceblue;
+}
+#phone-header i{
+color:aliceblue;
+}
+#phone-header .container{
+    display: flex;
+    justify-content: space-between;
+}
+#second{display: none;
+}
+#phone-second{
+    display: block;
+}
+#phone-second{
+    background-color: #212529;
+    padding: 50px ;
+}
+#phone-second .container .intro h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1;
+    color:#fff;
+}
+#phone-second .container .intro p{
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+#phone-second .container .intro .btn{
+    background-color: #0d6efd;
+ }
+    #phone-second .container .intro a{
+     text-decoration: none;
+     border: 1px solid;
+     border-radius: 0.3rem;
+     padding: 0.5rem 1rem;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+#third{
+    display: none;
+}
+#phone-third{
+    display: block;
+}
+#phone-third{
+padding: 50px 60px;
+}
+#phone-third .container .intro h2{
+    font-weight: bolder;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: left;
+    margin-bottom: 25px;
+}
+#phone-third .container .intro .box i{
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding:  0.7rem 0.8rem;
+    color:aliceblue;
+    background-color: #0d6efd;
+    margin-bottom: 10px;
+}
+#phone-third .container .intro .box h5{
+    font-size: 1.25rem;
+margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+color:#212529;
+}
+#phone-third .container .intro .box p{
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+#phone-third .container .intro .box{
+    padding: 10px;
+}
+#fourth{
+    display: none;
+}
+#phone-fourth{
+    display: block;
+}
+#phone-fourth{
+    padding: 100px 10px;
+    background-color: #F8F9FA;
+}
+#phone-fourth p{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    /* padding: 0 18.75rem; */
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#phone-fourth .intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#phone-fourth img{
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+#phone-fourth span{
+    color:#0d6efd;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#fifth{
+    display: none;
+}
+#phone-fifth{
+    display: block;
+}
+#phone-fifth .footer{
+    padding: 60px 0px;
+    border-radius: 0.3rem;
+}
+#phone-fifth .text h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#phone-fifth .text p{
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+
+}
+#phone-fifth .intro .box{
+    width: 100%;
+    border: 1px solid  transparent;
+    border-radius: 0.3rem;
+    margin-bottom: 20px;
+}
+#phone-fifth .intro .box img{
+    width: 100%;
+}
+#phone-fifth .intro .box .bottom h5{
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #1a1e21;
+     margin-left: 20px; 
+     margin-top: 20px;
+}
+#phone-fifth .intro .box .bottom p{
+    margin-left: 10px;
+    word-wrap:break-word;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 0 10px;
+}
+#phone-fifth .intro .box .foot img{
+    border-radius: 50%;
+    width: 12%;
+}
+#phone-fifth .foot{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#phone-fifth .foot img{margin-right: 1rem;
+    margin-left: 20px;
+}
+#phone-fifth .footer{
+    background-color: #1D78FD;
+    margin-bottom:  80px;
+}
+#phone-fifth .footer .text1 h2{
+    font-size: 1.75rem;
+    font-weight: 700 ;
+    color:#fff;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#phone-fifth .footer .text1 p{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#phone-fifth .login input{
+    padding: 6px 59px;
+    border-radius: 0.3rem;
+    border-color: transparent;
+}
+#phone-fifth .login button{
+    color:#F8F9FA;
+    border-color: #F8F9FA;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+#phone-fifth .login{
+    display: flex;
+  justify-content: center;
+}
+#phone-fifth .form p{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 0.875rem;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+footer{
+    display: none;
+}
+#phone-footer{
+    display: block;
+}
+#phone-footer{
+    background-color: #212529;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+#phone-footer .text p{
+    
+    color: #F8F9FA;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#phone-footer .text a{
+    margin-left: 10px;
+    color:#F8F9FA;
+    font-size: 20px;
+}
+}
+
+
+
+
+#second{
+    background-color: #212529;
+    padding: 120px 0;
+    color: white;
+
+}
+#second h1{
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#second p{
+    font-size: 32px;
+    margin-bottom: 25px;
+   
+}
+#second a{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    color: white;
+}
+#second .container .intro{
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+#second .container .left .btn{
+    background-color: #0d6efd;
+}
+#second .container .left{
+    width: 60%;
+    margin: auto;
+}
+#second .container .right{
+    width: 40%;
+    text-align: right;
+}
+#second .container .right img{
+    width: 90%;
+}
+#third{
+    padding: 70px 0;
+}
+#third .container {
+    display: flex;
+}
+#third .container .left{
+    width: 30%;
+}
+#third .container .right{
+    width: 70%;
+}
+#third .container .right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#third .container .right .box{
+    width: 48%;
+    padding: 10px 0;
+}
+#third .container .right .box i{
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding:  0.7rem 0.8rem;
+    color:aliceblue;
+    background-color: #0d6efd;
+    margin-bottom: 10px;
+}
+#third .container .right .box h5{
+font-size: 1.25rem;
+margin-bottom: 0.5rem;
+font-weight: 500;
+line-height: 1.2;
+color:#212529;
+}
+#third .container .right .box p{
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+#third .container .left h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: left;
+}
+#fourth{
+    background-color: #F8F9FA;
+    padding: 75px 0;
+    
+}
+#fourth p{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 0 18.75rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#fourth .container .intro img{
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+#fourth .container .intro h3{
+    text-align: center;
+}
+#fourth .container .intro span{
+    color:#0d6efd;
+    font-weight: bolder;
+    font-size: 20px;
+}
+ #fourth .intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#fifth{
+padding: 120px 0;
+}
+#fifth .text{
+    text-align: center;
+}
+#fifth .text h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+#fifth .text p{
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#fifth .intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#fifth .intro .box{
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+}
+#fifth .intro .box img{
+    width: 100%;
+}
+#fifth .intro .box .foot img{
+    border-radius: 50%;
+    width: 12%;
+}
+#fifth .intro .box .bottom h5{
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #1a1e21;
+     margin-left: 20px; 
+     margin-top: 20px;
+    
+}
+#fifth .intro .box .bottom p{
+    margin-left: 10px;
+    word-wrap:break-word;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 0 10px;
+}
+#fifth .foot{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#fifth .foot img{margin-right: 1rem;
+    margin-left: 20px;
+}
+#fifth .foot h5{
+    font-size:15px;
+    line-height: 1.5; 
+}
+#fifth .footer{
+    display: flex;
+   
+}
+#fifth .footer{
+    background-color: #1D78FD; 
+    padding: 50px 0;
+    border-radius: 0.3rem;
+    margin-top: 40px;
+}
+#fifth .text1{
+    width: 70%;
+    justify-content: space-between;
+}
+#fifth .form{
+    width: 30%;
+}
+#fifth .login{
+    display: flex;
+}
+#fifth .footer .text1 h2{
+    font-size: 1.75rem;
+    font-weight: 700 ;
+    color:#fff;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#fifth .footer .text1 p{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 30px;
+}
+#fifth .login input{
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    border-color: transparent;
+}
+#fifth .login button{
+    color:#F8F9FA;
+    border-color: #F8F9FA;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+  
+}
+#fifth .form p{
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 0.875rem;
+    margin-top: 10px;
+    
+}
+
+footer{
+    background-color: #212529;
+    padding: 30px 50px;
+}
+footer .foot{
+    display: flex;
+    justify-content: space-between;
+}
+.left p{
+    margin-left: 30px;
+    color: #F8F9FA;
+    font-size: 20px;
+}
+ footer .right a{
+    margin-left: 20px;
+    color:#F8F9FA;
+    font-size: 20px;
+} 
+ footer .foot .left{width: 70%;}
+footer .foot .right{width: 20%;} 
